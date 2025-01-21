@@ -1,0 +1,50 @@
+<cataleg>
+    <llista_actors>
+        <actor id="a1">
+            <nom>Alfonso</nom>
+            <edat>20</edat>
+        </actor>
+                <actor id="a2">
+            <nom>Josefina</nom>
+            <edat>18</edat>
+        </actor>
+                </actor>
+                <actor id="a3">
+            <nom>Mandla</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="p1">
+            <titol idioma="castellà">La guerra de las hamburguesas</titol>
+            <director>Pablo Silverio Fernandez</director>
+            <any>1977</any>
+            <actors>
+                <actors_ref ref="a1"></actors_ref>
+            </actors>
+        </pelicula>
+    <llista_pelicules>
+    <llista_pelicules>
+        <pelicula id="p2">
+            <titol idioma="castellà">La savana francesa</titol>
+            <director>Frank de la Jungla</director>
+            <any>2021</any>
+            <actors>
+                <actors_ref ref="a2"></actors_ref>
+                <actors_ref ref="a1"></actors_ref>
+            </actors>
+        </pelicula>    
+    </llista_pelicules>
+        <llista_pelicules>
+        <pelicula id="p3">
+            <titol idioma="castellà">El invierno feliz</titol>
+            <director>Santiago Cardosa Collazos</director>
+            <any>2009</any>
+            <actors>
+                <actors_ref ref="a3"></actors_ref>
+            </actors>
+        </pelicula>    
+    </llista_pelicules>
+        <recomanacio ref="p1"></recomanacio>
+        <recomanacio ref="p2"></recomanacio>
+    <llista_recomanacions>
+</cataleg>
